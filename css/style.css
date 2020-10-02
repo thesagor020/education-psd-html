@@ -1,0 +1,286 @@
+/* Theme Name: Name - UNIQUE HOMEPAGE Author: sagorhossain020@gmail.com */
+/* CSS Index ----------------------------------- 
+1. Theme default css 
+2. header 3. slider 
+4. about-area 
+5. features-box 
+6. department 
+7. team 
+8. video-area 
+9. counter 
+10. footer */
+/* 1. Theme default css */
+ body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+     font-size: 14px;
+     line-height: 24px;
+     font-weight: normal;
+     font-style: normal;
+}
+ .img {
+     max-width: 100%;
+     transition: all 0.3s ease-out 0s;
+}
+ .f-left {
+     float: left 
+}
+ .f-right {
+     float: right 
+}
+ .ml-25{
+     margin-left: 25px;
+}
+ .fix {
+     overflow: hidden 
+}
+ .bg{
+     background: #000000;
+}
+/*Default css end*/
+/*************************************** Header Section Css start ***************************************/
+.header-section{
+     width: 100%;
+     background: url(../img/header/header-bg.png) center top no-repeat;
+     background-size: cover;
+     padding: 0px 0px 280px;
+}
+.menu{
+    width: 100%;
+}
+.header-section .menu .bg-light{
+    background: transparent!important;
+    color: #5a6e79;
+    font-size: 16px;
+    font-weight: 700;
+}
+.header-section .menu .navbar-light .navbar-nav .nav-link {
+    color: #5a6e79;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 15px;
+}
+.header-section .menu .navbar-light .navbar-nav .active > .nav-link {
+    color: #ffc178 !important;
+    border-bottom: 2px solid #ffc178;
+}
+.header-section .menu .navbar-light .navbar-nav .nav-link:hover{
+    color: #ffc178 !important;
+    border-bottom: 2px solid #ffc178;
+}
+.header-section .menu .nav-link{
+    padding-bottom: 0px;
+}
+.header-section .menu .navbar-light .navbar-nav .btn-info {
+    color: #ffc178;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 30px;
+    padding: 10px 35px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.header-section .menu .navbar-light .navbar-nav .btn-info:hover, .header-section .menu .navbar-light .navbar-nav .btn-info:focus {
+    color:#fff;
+    background-color: #ffc178;
+    border-color: #fff;
+    border-radius: 30px;
+    padding: 10px 35px;
+}
+.header-section .banner{
+    width: 100%;
+    padding: 200px 0px;
+}
+.header-section .banner p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #5a6e79;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.header-section .banner .btn-info{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #ffc178;
+    border-color: #fff;
+    border-radius: 30px;
+    padding: 10px 35px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.header-section .banner .btn-info:hover, .header-section .banner .btn-info:focus{
+    color: #ffc178;;
+    background-color: #fff;
+    border-color: #ffc178;
+    border-radius: 30px;
+    padding: 10px 35px;
+}
+
+/*****************************************************
+
+                Header Section end
+
+*****************************************************/
+.feature-section{
+    width: 100%;
+    padding-bottom: 100px;
+}
+.feature-section .title{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.feature-section .title h1{
+    font-size: 42px;
+    font-weight: 700;
+    color: #252c3a;
+    margin-bottom: 10px;
+    line-height: 52px;
+}
+.feature-section .title p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #5a6e79;
+    line-height: 26px;
+}
+.feature-section .feature-inner{
+    width: 100%;
+    padding: 40px 20px;
+    text-align: center;
+}
+.feature-section .bg-1{
+    background: #f9703a;
+    width: 100%;
+}
+.feature-section .bg-2{
+    background: #80be41;
+    width: 100%;
+}
+.feature-section .bg-3{
+    background: #ffb157;
+    width: 100%;
+}
+.feature-section .feature-inner h2{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+/*****************************************************
+
+                Feature Section end
+
+*****************************************************/
+.about-section{
+    width: 100%;
+}
+.about-section .about-shape{
+    width: 100%;
+}
+.about-section .about-shape img{
+    width: 100%;
+}
+.about-section .about-inner{
+    width: 100%;
+    padding-bottom: 40px;
+}
+.about-section .about-inner h2{
+    font-size: 40px;
+    color: #252c3a;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 25px;
+}
+.about-section .about-inner p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #5a6e79;
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+.about-inner .students h1{
+    font-size: 40px;
+    color: #ffba00;
+    font-weight: 700;
+}
+.about-inner .students h5{
+    font-size: 20px;
+    color: #ffba00;
+    font-weight: 700;
+    line-height: 0px;
+}
+.about-inner .courses h1{
+    font-size: 40px;
+    color: #ff5f72;
+    font-weight: 700;
+}
+.about-inner .courses h5{
+    font-size: 20px;
+    color: #ff5f72;
+    font-weight: 700;
+    line-height: 0px;
+}
+.about-inner .hours h1{
+    font-size: 40px;
+    color: #43cb83;
+    font-weight: 700;
+}
+.about-inner .hours h5{
+    font-size: 20px;
+    color: #43cb83;
+    font-weight: 700;
+    line-height: 0px;
+}
+/********************************************
+            about section end
+********************************************/
+
+.service-section{
+    width: 100%;
+    padding: 70px 0px;
+    background: #f4f4f6;
+}
+.service-section .title{
+    width: 100%;
+    text-align: center;
+}
+.service-section h2{
+    font-size: 42px;
+    font-weight: 700;
+    color: #252c3a;
+    margin-bottom: 10px;
+    line-height: 52px;
+}
+.service-section .card-section{
+    width: 100%;
+   
+}
+.service-section .card{
+    width: 100%;
+    border: none;
+    background: #ffffff;
+}
+.card-body h3 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #ffc178;
+}
+.card-body h5{
+    font-size: 14px;
+    font-weight: 400;
+}
+.card-body p {
+    font-size: 14px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
